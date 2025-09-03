@@ -5,56 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table, th, td 
+        .book
         {
-            border: 1px solid black;
+            padding-left: 110px;
+            background-color: darkcyan;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 15px;
+            
         }
-       body {
-        border: 20px;
+        .body{
+            display: flex;
+        }
+        .img
+        {
+            padding-left: 100px;
+            padding-bottom: 50;
+        }
+        .username
+        {
+            position: relative;
+            left: 20px;
+            background-color: rgb(204, 255, 238);
+            border-radius: 10px;
+            padding: 8px;
+            
+        }
+       
+        .topclass
+        {
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 60px;
+            
+        }
         
-       }
+        .body
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 150px;
+        padding-left: 150px;
+
+        }
     </style>
 </head>
 <body>
-    <div class="page">
-    <h1>welcome to laundry wallha </h1>
-    <p>Welcome to laundry wallha,We provide a modern self-service and assisted laundry experience with advanced machines, premium detergents, and eco-friendly cleaning </p>
-<img src="https://media.istockphoto.com/id/156396667/vector/cartoon-washing-machine.jpg?s=612x612&w=0&k=20&c=2EryUedJ5uBqo34gXKc46JtoCxxSmtLlKgg4kS2kAy8=" alt="washing machine" width="200px">
-<h2>Our services</h2>
-<ul>
-    <li>
-        washing and drying 
-    </li>
-    <li>ironing and folding</li>
-    <li>dry cleaning </li>
-    <li>stain removal</li>
+    <header>
+    <div class="topclass">
+        <div class="logo">
+        <img src="playstation-brands-solid.svg" alt="LOGO" width="50px">
+        </div>
+        
+        <nav>
+            <a href="#">home</a>
+            <a href="#">service</a>
+            <a href="#">contact us</a>
+            <a href="#">about us</a>
+        </nav>
+        <div class="username">
+            <a href="#">sing-in</a>
 
-</ul>
-<h2>PRICE</h2>
-<table style="width: 200px;">
-    
-    <tr>
-    <th>service</th>
-    <th>price</th>
+        </div>
+        
 
-    </tr>
-    <tr>
-        <td>washing and drying</td>
-        <td>$10.00</td>
-    </tr>
-    <tr>
-        <td>ironing and folding</td>
-        <td>$5.00</td>
-    </tr>
-</table>
-<h2>BOOK NOW</h2>
-<form>
-    NAME: <input type="text">
-    E-MAIL: <input type="email">
-    PHONE: <input type="tel">
-  <input type="submit" value="Submit">
-  <p>Contact us at: info@laundrywallha.com</p>
-</form>
+    </div>
+    </header>
+    <div class="body">
+        <div class="text">
+    <h1>Revitalize your</h1>
+    <h1>Clothes with expert</h1>
+    <h1 style="color: rgb(2, 255, 255);">Laundry Services!</h1>
+    <p>An efficient laundry solution designed to simplify <br> washing, drying, and organizing clothes for <br>households and businesses.</p>
+  <div class="book">
+    <a href="#">
+             BOOK  NOW
+   </a></div>
 </div>
+    <div class="img">
+        <img src="laundary.jpg" alt="washing">
+    </div>
+    </div>
 </body>
 </html>
